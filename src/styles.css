@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: antiquewhite;
+  z-index: 1;
+  width: 150px;
+  right: 0;
+  margin: auto;
+}
