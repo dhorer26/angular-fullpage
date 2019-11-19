@@ -1,6 +1,6 @@
 <ul id="menu">
   <li>Credit goes to https://github.com/alvarotrigo/angular-fullpage</li>
-  <li><a [class.activemenu]="activemenu == 0" (click)="fullpage_api.moveTo('firstPage', 1)">Section 1</a></li>
+  <li><a (click)="fullpage_api.moveTo('firstPage', 1)">Section 1</a></li>
   <li><a (click)="fullpage_api.moveTo('secondPage', 2)">Section 2</a></li>
   <li><a (click)="fullpage_api.moveTo('thirdPage', 3)">Section 3</a></li>
 </ul>
@@ -11,8 +11,3 @@
   <div class="section">Some section3</div>
 </div>
 
-<style>
-.activemenu {
-  color: red;
-}
-</style>
